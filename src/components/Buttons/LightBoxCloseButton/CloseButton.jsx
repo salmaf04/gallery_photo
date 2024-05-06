@@ -2,7 +2,7 @@ import React from 'react'
 
 const CloseButton = ({onClose}) => {
     return (
-      <button onClick={onClose}>Close</button>
+      <button style={{marginLeft:'2px', height:'25px', fontWeight: 'bold'}} onClick={onClose}>Close</button>
     );
   }
 

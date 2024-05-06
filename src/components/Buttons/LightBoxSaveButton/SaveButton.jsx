@@ -2,7 +2,7 @@ import React from 'react'
 
 const SaveButton = ({onSavePhoto}) => {
     return (
-      <button onClick={onSavePhoto}>Save Photo</button>
+      <button style={{marginLeft:'2px', height:'25px'}} onClick={onSavePhoto}>Save Photo</button>
     );
   }
 

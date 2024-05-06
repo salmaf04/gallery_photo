@@ -2,7 +2,7 @@ import React from 'react'
 
 const EditButton = ({onEdit}) => {
     return (
-      <button onClick={onEdit}>Edit</button>
+      <button style={{height:'25px'}} onClick={onEdit}>Edit</button>
     );
   }
 
